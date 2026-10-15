@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-10-15T08:27:57.148603+00:00",
+  "repository": "/workspace/Wisteria-cafe",
+  "baseline": "/workspace/scratch/wisteria-release-02/baseline.json",
+  "menu": {
+    "count": 431,
+    "expected_count": 431,
+    "sha256": "83d8eecade417f30192821161af7b65e6c0e95406d07fc592cdf66ac3cd6491d",
+    "baseline_sha256": "83d8eecade417f30192821161af7b65e6c0e95406d07fc592cdf66ac3cd6491d",
+    "byte_unchanged": true
+  },
+  "assets": {
+    "baseline_count": 462,
+    "actual_count": 462,
+    "unchanged_count": 462,
+    "missing": [],
+    "changed": [],
+    "added": [],
+    "all_baseline_byte_unchanged": true
+  },
+  "manifest": {
+    "baseline_sha256": "f29a461086067b2208d1e777a895b81c08b3163ea8d1fca8de0e17fc222c8aa3",
+    "current_sha256": "f29a461086067b2208d1e777a895b81c08b3163ea8d1fca8de0e17fc222c8aa3",
+    "source_copy_sha256": "f29a461086067b2208d1e777a895b81c08b3163ea8d1fca8de0e17fc222c8aa3",
+    "byte_unchanged": true,
+    "routes_canonicals_redirects_unchanged": true,
+    "page_count": 598,
+    "redirect_count": 41,
+    "legacy_count": 101
+  },
+  "favicons": {
+    "html_count": 598,
+    "link_count": 598,
+    "href_counts": {
+      "/assets/logo.png": 598
+    },
+    "invalid_pages": [],
+    "all_html_use_original_png": true,
+    "png_signature_valid": true,
+    "logo_sha256": "f49c888850b5bb85a58e8600ae1215260917f10308d20fcf3b7cfde91d2dfcac",
+    "logo_matches_baseline": true,
+    "logo_matches_original_archive": true
+  },
+  "passed": true
+}

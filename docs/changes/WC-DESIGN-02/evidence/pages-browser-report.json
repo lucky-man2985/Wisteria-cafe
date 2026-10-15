@@ -1,0 +1,194 @@
+{
+  "layouts": [
+    {
+      "width": 360,
+      "path": "/",
+      "noOverflow": true
+    },
+    {
+      "width": 360,
+      "path": "/menu/",
+      "noOverflow": true
+    },
+    {
+      "width": 360,
+      "path": "/menu/drinks/",
+      "noOverflow": true
+    },
+    {
+      "width": 360,
+      "path": "/dish/boulysevastopol-1614885300332/",
+      "noOverflow": true
+    },
+    {
+      "width": 360,
+      "path": "/contacts/",
+      "noOverflow": true
+    },
+    {
+      "width": 360,
+      "path": "/blog_o_ede/",
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "path": "/menu/",
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "path": "/menu/drinks/",
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "path": "/dish/boulysevastopol-1614885300332/",
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "path": "/contacts/",
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "path": "/blog_o_ede/",
+      "noOverflow": true
+    },
+    {
+      "width": 560,
+      "path": "/",
+      "noOverflow": true
+    },
+    {
+      "width": 560,
+      "path": "/menu/",
+      "noOverflow": true
+    },
+    {
+      "width": 560,
+      "path": "/menu/drinks/",
+      "noOverflow": true
+    },
+    {
+      "width": 560,
+      "path": "/dish/boulysevastopol-1614885300332/",
+      "noOverflow": true
+    },
+    {
+      "width": 560,
+      "path": "/contacts/",
+      "noOverflow": true
+    },
+    {
+      "width": 560,
+      "path": "/blog_o_ede/",
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "path": "/menu/",
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "path": "/menu/drinks/",
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "path": "/dish/boulysevastopol-1614885300332/",
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "path": "/contacts/",
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "path": "/blog_o_ede/",
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "path": "/",
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "path": "/menu/",
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "path": "/menu/drinks/",
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "path": "/dish/boulysevastopol-1614885300332/",
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "path": "/contacts/",
+      "noOverflow": true
+    },
+    {
+      "width": 1024,
+      "path": "/blog_o_ede/",
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "path": "/menu/",
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "path": "/menu/drinks/",
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "path": "/dish/boulysevastopol-1614885300332/",
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "path": "/contacts/",
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "path": "/blog_o_ede/",
+      "noOverflow": true
+    }
+  ],
+  "scenarios": [
+    "Mobile categories remain below measured sticky header",
+    "Occasions, search, empty state/reset, budget and sorting",
+    "Product variant 250→280, favourite, cart, delivery minimum, pickup, keyboard quantity, draft order and persistence",
+    "Page 2 filtering resets pagination offset",
+    "No-JavaScript menu retains 24 crawlable product cards and page links"
+  ],
+  "errors": [],
+  "requestsFailed": [],
+  "ok": true
+}

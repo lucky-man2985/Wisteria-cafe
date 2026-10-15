@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-15T08:44:24.345Z",
+  "base": "https://lucky-man2985.github.io/Wisteria-cafe",
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1
+  },
+  "checks": [
+    {
+      "name": "browser smoke completed",
+      "pass": false,
+      "details": {
+        "message": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://lucky-man2985.github.io/Wisteria-cafe/\nCall log:\n\u001b[2m  - navigating to \"https://lucky-man2985.github.io/Wisteria-cafe/\", waiting until \"networkidle\"\u001b[22m\n",
+        "stack": "page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://lucky-man2985.github.io/Wisteria-cafe/\nCall log:\n\u001b[2m  - navigating to \"https://lucky-man2985.github.io/Wisteria-cafe/\", waiting until \"networkidle\"\u001b[22m\n\n    at go ([stdin]:4:45)\n    at [stdin]:5:7"
+      }
+    }
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "requestFailures": [
+    {
+      "url": "https://lucky-man2985.github.io/Wisteria-cafe/",
+      "failure": {
+        "errorText": "net::ERR_CERT_AUTHORITY_INVALID"
+      }
+    }
+  ],
+  "mutatingRequests": [],
+  "status": "BLOCKED",
+  "blocker": {
+    "scope": "Chromium live browser smoke only",
+    "code": "ERR_CERT_AUTHORITY_INVALID",
+    "url": "https://lucky-man2985.github.io/Wisteria-cafe/",
+    "details": "Chromium does not trust the HTTPS certificate chain presented in this environment. No TLS verification bypass or trust-store changes were used. Browser did not load application or execute application interaction checks."
+  },
+  "applicationFailuresObserved": false,
+  "applicationFailuresObservedNote": "No application result is available; the browser run stopped before application load."
+}

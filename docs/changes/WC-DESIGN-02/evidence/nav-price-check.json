@@ -1,0 +1,562 @@
+{
+  "checkedAt": "2026-10-15T08:32:27.511Z",
+  "base": "http://127.0.0.1:8000",
+  "summary": {
+    "total": 16,
+    "passed": 16,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "desktop popup initially hidden with aria-expanded=false",
+      "pass": true,
+      "details": {
+        "hidden": true,
+        "expanded": "false",
+        "visible": false
+      }
+    },
+    {
+      "name": "desktop toggle opens popup and aria-expanded=true",
+      "pass": true,
+      "details": {
+        "hidden": false,
+        "expanded": "true",
+        "visible": true
+      }
+    },
+    {
+      "name": "desktop popup stays within viewport",
+      "pass": true,
+      "details": {
+        "left": 0,
+        "right": 1440,
+        "top": 150,
+        "bottom": 509.5,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "all desktop popup links resolve to actual local pages",
+      "pass": true,
+      "details": [
+        {
+          "text": "Завтраки",
+          "href": "/zakazatzavtraksevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/zakazatzavtraksevastopol/"
+        },
+        {
+          "text": "Салаты",
+          "href": "/salatysevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/salatysevastopol/"
+        },
+        {
+          "text": "Боулы",
+          "href": "/boulysevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/boulysevastopol/"
+        },
+        {
+          "text": "Супы",
+          "href": "/supsevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/supsevastopol/"
+        },
+        {
+          "text": "Горячее",
+          "href": "/goryacheesevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/goryacheesevastopol/"
+        },
+        {
+          "text": "Растительное меню",
+          "href": "/veganskieproduktysevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/veganskieproduktysevastopol/"
+        },
+        {
+          "text": "Десерты",
+          "href": "/desertysevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/desertysevastopol/"
+        },
+        {
+          "text": "ПП-десерты",
+          "href": "/kupitdesertysevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/kupitdesertysevastopol/"
+        },
+        {
+          "text": "Напитки",
+          "href": "/kofesevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/kofesevastopol/"
+        },
+        {
+          "text": "Всё меню",
+          "href": "/edasevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/edasevastopol/"
+        },
+        {
+          "text": "Найдите свой десерт",
+          "href": "/desertysevastopol",
+          "status": 200,
+          "sameOrigin": true,
+          "finalUrl": "http://127.0.0.1:8000/desertysevastopol/"
+        }
+      ]
+    },
+    {
+      "name": "Escape closes popup and restores toggle focus",
+      "pass": true,
+      "details": {
+        "hidden": true,
+        "expanded": "false",
+        "visible": false,
+        "focusRestored": true
+      }
+    },
+    {
+      "name": "outside click closes desktop popup",
+      "pass": true,
+      "details": {
+        "hidden": true,
+        "expanded": "false",
+        "visible": false
+      }
+    },
+    {
+      "name": "resize to 390 closes desktop popup",
+      "pass": true,
+      "details": {
+        "hidden": true,
+        "expanded": "false",
+        "visible": false
+      }
+    },
+    {
+      "name": "768px popup opens and page has no horizontal overflow",
+      "pass": true,
+      "details": {
+        "state": {
+          "hidden": false,
+          "expanded": "true",
+          "visible": true
+        },
+        "geometry": {
+          "left": 0,
+          "right": 768,
+          "top": 150,
+          "bottom": 509.5,
+          "width": 768,
+          "scrollWidth": 768,
+          "viewport": 768
+        }
+      }
+    },
+    {
+      "name": "mobile toggle exposes all six navigation links",
+      "pass": true,
+      "details": {
+        "expanded": "true",
+        "links": [
+          {
+            "text": "Меню",
+            "href": "/edasevastopol",
+            "top": 146,
+            "bottom": 194,
+            "left": 20,
+            "right": 370,
+            "height": 48,
+            "visible": true,
+            "points": [
+              {
+                "x": 32,
+                "y": 170,
+                "targetsLink": true
+              },
+              {
+                "x": 195,
+                "y": 170,
+                "targetsLink": true
+              },
+              {
+                "x": 358,
+                "y": 170,
+                "targetsLink": true
+              }
+            ]
+          },
+          {
+            "text": "Доставка",
+            "href": "/dostavkasevastopol",
+            "top": 194,
+            "bottom": 242,
+            "left": 20,
+            "right": 370,
+            "height": 48,
+            "visible": true,
+            "points": [
+              {
+                "x": 32,
+                "y": 218,
+                "targetsLink": true
+              },
+              {
+                "x": 195,
+                "y": 218,
+                "targetsLink": true
+              },
+              {
+                "x": 358,
+                "y": 218,
+                "targetsLink": true
+              }
+            ]
+          },
+          {
+            "text": "Для офиса",
+            "href": "/office/",
+            "top": 242,
+            "bottom": 290,
+            "left": 20,
+            "right": 370,
+            "height": 48,
+            "visible": true,
+            "points": [
+              {
+                "x": 32,
+                "y": 266,
+                "targetsLink": true
+              },
+              {
+                "x": 195,
+                "y": 266,
+                "targetsLink": true
+              },
+              {
+                "x": 358,
+                "y": 266,
+                "targetsLink": true
+              }
+            ]
+          },
+          {
+            "text": "О кафе",
+            "href": "/onas",
+            "top": 290,
+            "bottom": 338,
+            "left": 20,
+            "right": 370,
+            "height": 48,
+            "visible": true,
+            "points": [
+              {
+                "x": 32,
+                "y": 314,
+                "targetsLink": true
+              },
+              {
+                "x": 195,
+                "y": 314,
+                "targetsLink": true
+              },
+              {
+                "x": 358,
+                "y": 314,
+                "targetsLink": true
+              }
+            ]
+          },
+          {
+            "text": "Контакты",
+            "href": "/kontakty",
+            "top": 338,
+            "bottom": 386,
+            "left": 20,
+            "right": 370,
+            "height": 48,
+            "visible": true,
+            "points": [
+              {
+                "x": 32,
+                "y": 362,
+                "targetsLink": true
+              },
+              {
+                "x": 195,
+                "y": 362,
+                "targetsLink": true
+              },
+              {
+                "x": 358,
+                "y": 362,
+                "targetsLink": true
+              }
+            ]
+          },
+          {
+            "text": "Блог",
+            "href": "/blog_o_ede",
+            "top": 386,
+            "bottom": 434,
+            "left": 20,
+            "right": 370,
+            "height": 48,
+            "visible": true,
+            "points": [
+              {
+                "x": 32,
+                "y": 410,
+                "targetsLink": true
+              },
+              {
+                "x": 195,
+                "y": 410,
+                "targetsLink": true
+              },
+              {
+                "x": 358,
+                "y": 410,
+                "targetsLink": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile navigation touch targets are unoccluded and at least 44px high",
+      "pass": true,
+      "details": [
+        {
+          "text": "Меню",
+          "href": "/edasevastopol",
+          "top": 146,
+          "bottom": 194,
+          "left": 20,
+          "right": 370,
+          "height": 48,
+          "visible": true,
+          "points": [
+            {
+              "x": 32,
+              "y": 170,
+              "targetsLink": true
+            },
+            {
+              "x": 195,
+              "y": 170,
+              "targetsLink": true
+            },
+            {
+              "x": 358,
+              "y": 170,
+              "targetsLink": true
+            }
+          ]
+        },
+        {
+          "text": "Доставка",
+          "href": "/dostavkasevastopol",
+          "top": 194,
+          "bottom": 242,
+          "left": 20,
+          "right": 370,
+          "height": 48,
+          "visible": true,
+          "points": [
+            {
+              "x": 32,
+              "y": 218,
+              "targetsLink": true
+            },
+            {
+              "x": 195,
+              "y": 218,
+              "targetsLink": true
+            },
+            {
+              "x": 358,
+              "y": 218,
+              "targetsLink": true
+            }
+          ]
+        },
+        {
+          "text": "Для офиса",
+          "href": "/office/",
+          "top": 242,
+          "bottom": 290,
+          "left": 20,
+          "right": 370,
+          "height": 48,
+          "visible": true,
+          "points": [
+            {
+              "x": 32,
+              "y": 266,
+              "targetsLink": true
+            },
+            {
+              "x": 195,
+              "y": 266,
+              "targetsLink": true
+            },
+            {
+              "x": 358,
+              "y": 266,
+              "targetsLink": true
+            }
+          ]
+        },
+        {
+          "text": "О кафе",
+          "href": "/onas",
+          "top": 290,
+          "bottom": 338,
+          "left": 20,
+          "right": 370,
+          "height": 48,
+          "visible": true,
+          "points": [
+            {
+              "x": 32,
+              "y": 314,
+              "targetsLink": true
+            },
+            {
+              "x": 195,
+              "y": 314,
+              "targetsLink": true
+            },
+            {
+              "x": 358,
+              "y": 314,
+              "targetsLink": true
+            }
+          ]
+        },
+        {
+          "text": "Контакты",
+          "href": "/kontakty",
+          "top": 338,
+          "bottom": 386,
+          "left": 20,
+          "right": 370,
+          "height": 48,
+          "visible": true,
+          "points": [
+            {
+              "x": 32,
+              "y": 362,
+              "targetsLink": true
+            },
+            {
+              "x": 195,
+              "y": 362,
+              "targetsLink": true
+            },
+            {
+              "x": 358,
+              "y": 362,
+              "targetsLink": true
+            }
+          ]
+        },
+        {
+          "text": "Блог",
+          "href": "/blog_o_ede",
+          "top": 386,
+          "bottom": 434,
+          "left": 20,
+          "right": 370,
+          "height": 48,
+          "visible": true,
+          "points": [
+            {
+              "x": 32,
+              "y": 410,
+              "targetsLink": true
+            },
+            {
+              "x": 195,
+              "y": 410,
+              "targetsLink": true
+            },
+            {
+              "x": 358,
+              "y": 410,
+              "targetsLink": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "390px mobile navigation has no horizontal overflow",
+      "pass": true,
+      "details": {
+        "left": 0,
+        "right": 390,
+        "top": 132,
+        "bottom": 455,
+        "width": 390,
+        "scrollWidth": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "quick view initial upper and lower prices are 250",
+      "pass": true,
+      "details": {
+        "upper": "250 ₽",
+        "lower": "250 ₽"
+      }
+    },
+    {
+      "name": "quick view option updates both upper and lower prices to 280",
+      "pass": true,
+      "details": {
+        "upper": "280 ₽",
+        "lower": "280 ₽"
+      }
+    },
+    {
+      "name": "full product page displays static base price from 250 above options",
+      "pass": true,
+      "details": {
+        "upper": "от 250 ₽ за порцию",
+        "lower": "250 ₽"
+      }
+    },
+    {
+      "name": "full product page keeps base from 250 while current variant becomes 280",
+      "pass": true,
+      "details": {
+        "upper": "от 250 ₽ за порцию",
+        "lower": "280 ₽"
+      }
+    },
+    {
+      "name": "no page JavaScript errors",
+      "pass": true,
+      "details": []
+    }
+  ]
+}

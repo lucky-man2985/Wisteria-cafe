@@ -1,0 +1,69 @@
+{
+  "base": "https://lucky-man2985.github.io/Wisteria-cafe/",
+  "commit": "841e1af3bf02df7f8d0fb917bf8e35226bee36af",
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "approvedDesign": true,
+      "nativeFavicon": true
+    },
+    {
+      "path": "menu/",
+      "status": 200,
+      "approvedDesign": true,
+      "nativeFavicon": true
+    },
+    {
+      "path": "menu/desserts/",
+      "status": 200,
+      "approvedDesign": true,
+      "nativeFavicon": true
+    },
+    {
+      "path": "dish/salatysevastopol-1615226157829/",
+      "status": 200,
+      "approvedDesign": true,
+      "nativeFavicon": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "brand.css?v=20261015-accents",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "b0c800597b0b6c5ee0ab15da3fa09d8201544b085965c007a3f56fee8c566e7a"
+    },
+    {
+      "path": "brand-nav.js?v=20261015-accents2",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "528bf7a50db16ff3c7cc91c6017981461488647cfbf16e435724942f72614aee"
+    },
+    {
+      "path": "experience.js?v=20261015-accents",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "89837120fc1724a5fe84ae3c8837aa2d78c7dd04ca32b47426cddf026c15ed95"
+    },
+    {
+      "path": "design.css?v=20261015-accents",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "9365dd0bfca380cba22506ff9b065e5a040b49450e67d324a0f855e2d9a61abf"
+    },
+    {
+      "path": "assets/logo.png",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "f49c888850b5bb85a58e8600ae1215260917f10308d20fcf3b7cfde91d2dfcac"
+    },
+    {
+      "path": "menu.json",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "d313f65820fef84e660ce5b6d7d1523afcf158cac6bfd4a28f60f5fc2e2674a4"
+    }
+  ],
+  "ok": true
+}
