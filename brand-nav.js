@@ -1,8 +1,14 @@
 /* Desktop catalog disclosure; mobile navigation uses the existing menu toggle. */
 (() => {
   const mobile = window.matchMedia('(max-width: 760px)');
+  const sidebar = document.querySelector('.sidebar');
+  const fitSidebar = () => {
+    if (!sidebar) return;
+    if (mobile.matches) sidebar.style.removeProperty('max-height');
+    else sidebar.style.maxHeight = Math.max(176, innerHeight - sidebar.getBoundingClientRect().top - 20) + 'px';
+  };
   const revealCategory = () => {
-    const sidebar = document.querySelector('.sidebar');
+    fitSidebar();
     const active = sidebar?.querySelector('a.active');
     if (!sidebar || !active) return;
     const frame = sidebar.getBoundingClientRect();
@@ -17,6 +23,13 @@
     }
   };
   (document.fonts?.ready || Promise.resolve()).then(() => requestAnimationFrame(revealCategory));
+  let fitting = false;
+  window.addEventListener('scroll', () => {
+    if (fitting) return;
+    fitting = true;
+    requestAnimationFrame(() => { fitSidebar(); fitting = false; });
+  }, { passive: true });
+  window.addEventListener('resize', () => requestAnimationFrame(revealCategory));
   const wrapper = document.querySelector('.menu-navigation');
   const toggle = wrapper?.querySelector('.catalog-toggle');
   const panel = document.getElementById('catalog-navigation');
