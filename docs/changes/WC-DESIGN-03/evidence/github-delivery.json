@@ -1,0 +1,406 @@
+{
+  "ok": true,
+  "branch": "design/wisteria-botanical-10-2026-10-15",
+  "artifactCommit": "2b8a60b953a3f403f1e716a69d9adbaa3a56c3a4",
+  "galleryUrl": "https://github.com/lucky-man2985/Wisteria-cafe/tree/design/wisteria-botanical-10-2026-10-15/botanical-directions",
+  "galleryStatus": 200,
+  "checks": [
+    {
+      "path": "botanical-directions/README.md",
+      "status": 200,
+      "bytes": 8516,
+      "type": "text/plain; charset=utf-8",
+      "sha256": "6732eca53c7f3b7f648cd883fb6f621cf2705b4dc5374dabb96fac77da1e051f",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/board-1.png",
+      "status": 200,
+      "bytes": 905522,
+      "type": "image/png",
+      "sha256": "20f969eb76c52dd034e82160bd1cde4a157c6fd288a8dc66abbbd095e7ff6e4f",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/board-2.png",
+      "status": 200,
+      "bytes": 934893,
+      "type": "image/png",
+      "sha256": "8ef6bce61664ef3f589e49b0b713839eed30ba05b4119f54880d79d4c2598a3b",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/Wisteria-10-design-directions.pdf",
+      "status": 200,
+      "bytes": 2918428,
+      "type": "application/octet-stream",
+      "sha256": "7520bbc748573b3c2a13cf4e9ac37664d3c4517654c8bc5913deccbccf577e56",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/01-home-desktop.png",
+      "status": 200,
+      "bytes": 851496,
+      "type": "image/png",
+      "sha256": "701d2253665797991fa7237eff65727369f487722c66a12b351469b86f368dd1",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/01-home-mobile.png",
+      "status": 200,
+      "bytes": 171460,
+      "type": "image/png",
+      "sha256": "3c2c6476c19de1b93c1ec24bdb419ef461ccf92fee5ca0c06f17ac3d29302855",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/01-menu-desktop.png",
+      "status": 200,
+      "bytes": 814942,
+      "type": "image/png",
+      "sha256": "66cf187fa38ff5f0b66a41ff084e6afe25b1361bc23c3f5663fbea0e421ced4b",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/01-menu-mobile.png",
+      "status": 200,
+      "bytes": 185622,
+      "type": "image/png",
+      "sha256": "b76aa07fe3cd01a3d6854f4fd2fe63cc66686c2d6830338bd0dc3c41ee311ec8",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/02-home-desktop.png",
+      "status": 200,
+      "bytes": 699909,
+      "type": "image/png",
+      "sha256": "73d075178546384eebbc9f7919327c947acaf23c111fa2cf50e52488dbd306d3",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/02-home-mobile.png",
+      "status": 200,
+      "bytes": 197818,
+      "type": "image/png",
+      "sha256": "030f1a4d69a11330977594976c84c45a972271671c7712e8b903f954d179d8c5",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/02-menu-desktop.png",
+      "status": 200,
+      "bytes": 871036,
+      "type": "image/png",
+      "sha256": "3265fa037b1cd1b6743e5ffa198094c762717270de01983346f08881605dc597",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/02-menu-mobile.png",
+      "status": 200,
+      "bytes": 202695,
+      "type": "image/png",
+      "sha256": "c67cc3abd6dad1a4faa72095e3de3e8853fe96735c0b494576ad7accc84cb260",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/03-home-desktop.png",
+      "status": 200,
+      "bytes": 820535,
+      "type": "image/png",
+      "sha256": "5d28d657b2e4e4850c2704f608719d82b5d4e4856257965baa3661d20dcfb4c5",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/03-home-mobile.png",
+      "status": 200,
+      "bytes": 189208,
+      "type": "image/png",
+      "sha256": "ab6e9cc9ce00a1c6600e663960c7a523c4328502ec64c57b8c484552878c9054",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/03-menu-desktop.png",
+      "status": 200,
+      "bytes": 1208877,
+      "type": "image/png",
+      "sha256": "1971a1ec716020fa8dde0c63809ebd665c578d6b6da6970a25b7bb52899f5724",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/03-menu-mobile.png",
+      "status": 200,
+      "bytes": 191793,
+      "type": "image/png",
+      "sha256": "7fb9ba7210f44c25c9dd6341a3616a101ca5018f78988f7407abbfd537a1a072",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/04-home-desktop.png",
+      "status": 200,
+      "bytes": 874888,
+      "type": "image/png",
+      "sha256": "d993bf0e57ee7ae39fcb4f5581de19d151dba7eee7187d709de448b91b5aa058",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/04-home-mobile.png",
+      "status": 200,
+      "bytes": 145013,
+      "type": "image/png",
+      "sha256": "d8143d590eedbc413103091f72d3537231015866a196bfe0df67fa67acc06698",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/04-menu-desktop.png",
+      "status": 200,
+      "bytes": 684596,
+      "type": "image/png",
+      "sha256": "4071bcca465b2f5b8a73602c517e38741412c2d42914a527d35d00f3d6b4484a",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/04-menu-mobile.png",
+      "status": 200,
+      "bytes": 172335,
+      "type": "image/png",
+      "sha256": "2a1b4dcd568a330db16a2ccfceb47f612985a6001dd6ff5c8cb3e628c7416d6a",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/05-home-desktop.png",
+      "status": 200,
+      "bytes": 852744,
+      "type": "image/png",
+      "sha256": "dc9aa131627bb4e635a96c0420c946cd79545ef7690a8456e54cf82e42e4847f",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/05-home-mobile.png",
+      "status": 200,
+      "bytes": 198644,
+      "type": "image/png",
+      "sha256": "a7a1e38a4e334f652aba2bedf2bf826afa0be8c7f7d59de96f0017c4855071ce",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/05-menu-desktop.png",
+      "status": 200,
+      "bytes": 1010105,
+      "type": "image/png",
+      "sha256": "1d3df8d3a94abff5641fee4a6c1410cf69d639e9a2d50714a603f6e13bc46023",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/05-menu-mobile.png",
+      "status": 200,
+      "bytes": 194719,
+      "type": "image/png",
+      "sha256": "342e315b4288d62da8da80ddf706e19eb02d9e1c044ea49f77fdd285668295fc",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/06-home-desktop.png",
+      "status": 200,
+      "bytes": 987754,
+      "type": "image/png",
+      "sha256": "f1cf39c590e3445f72ab6d6f58c21a80b00d51cbd57ae5bcf0921d5d108c44db",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/06-home-mobile.png",
+      "status": 200,
+      "bytes": 224010,
+      "type": "image/png",
+      "sha256": "fd1ff09095208fe81df2deb958c6641d80a15ab38ee72c3bf2de7532e0310e48",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/06-menu-desktop.png",
+      "status": 200,
+      "bytes": 722331,
+      "type": "image/png",
+      "sha256": "c7f992cb62ac586de3146d964d9d8c8369f7ae65d1c465faee5424363f559681",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/06-menu-mobile.png",
+      "status": 200,
+      "bytes": 192806,
+      "type": "image/png",
+      "sha256": "04e66a1a8c4fd53afabdcc31426594720138637317b14ad3eee2567f4fee1f4d",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/07-home-desktop.png",
+      "status": 200,
+      "bytes": 746116,
+      "type": "image/png",
+      "sha256": "47f7f3f654d9c4187adbb526ee16363473f72bde418bb6a2c93fa1bc35c68274",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/07-home-mobile.png",
+      "status": 200,
+      "bytes": 162117,
+      "type": "image/png",
+      "sha256": "a54cf3ee69d1a6398357b88b2ee192e7c00a61590771400496805cf28ecce20f",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/07-menu-desktop.png",
+      "status": 200,
+      "bytes": 771916,
+      "type": "image/png",
+      "sha256": "e63e6c8d939ff2b48de7085ecbdcb7a32bd3291e9134ad765281d81564d3b348",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/07-menu-mobile.png",
+      "status": 200,
+      "bytes": 162972,
+      "type": "image/png",
+      "sha256": "e558388a28c3f160c484f97618bfe226d5972e90f48e332c83429ec9699b8ef7",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/08-home-desktop.png",
+      "status": 200,
+      "bytes": 515378,
+      "type": "image/png",
+      "sha256": "1cb30e774a8c0d9f242f6217583cf0b01d6ff11cfed9f702cf84c640e9f4f64d",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/08-home-mobile.png",
+      "status": 200,
+      "bytes": 109615,
+      "type": "image/png",
+      "sha256": "1d73585ec9f1a1b7717992a6054a406591069cdea481301e4171452325f4f6ee",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/08-menu-desktop.png",
+      "status": 200,
+      "bytes": 395978,
+      "type": "image/png",
+      "sha256": "4fd9a385f1135ef9006c516783bbdd68a691a4ef2b1fafe7adcf0d4432c43bbc",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/08-menu-mobile.png",
+      "status": 200,
+      "bytes": 100725,
+      "type": "image/png",
+      "sha256": "56a136b0c96eafd835689b2a84f5547f30077cad51cf3a907dc0037cd00f2c07",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/09-home-desktop.png",
+      "status": 200,
+      "bytes": 879818,
+      "type": "image/png",
+      "sha256": "a3d0f14f7c00c3f8426140aa17334826a9534cc901e45cc675b15806d82a5c29",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/09-home-mobile.png",
+      "status": 200,
+      "bytes": 156739,
+      "type": "image/png",
+      "sha256": "ff4304e16c7f2efde24c04ea6a19368f33b50d9e37ee68a5364a7b50c40ab440",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/09-menu-desktop.png",
+      "status": 200,
+      "bytes": 860986,
+      "type": "image/png",
+      "sha256": "245114b39f9d708a3b10743de1304544fa27e8c3db525ddf71c870d1c0ab6c19",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/09-menu-mobile.png",
+      "status": 200,
+      "bytes": 189770,
+      "type": "image/png",
+      "sha256": "6188c93a1883f3e346a2f8ca7483fe570f56ef7d865ba9f45648a13205d08450",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/10-home-desktop.png",
+      "status": 200,
+      "bytes": 936854,
+      "type": "image/png",
+      "sha256": "709ca0d940d89cb59483c86a401d04c20c06bb802e98a3af284d43d8a294ba73",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/10-home-mobile.png",
+      "status": 200,
+      "bytes": 204072,
+      "type": "image/png",
+      "sha256": "cd331396a184e746779962572f1746d062134d22513c02dfc9886d740292cd93",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/10-menu-desktop.png",
+      "status": 200,
+      "bytes": 292291,
+      "type": "image/png",
+      "sha256": "b0f683aa5d01661c68ec72b941290f8f3f17dfe2b088405431920962bc422640",
+      "sameAsLocal": true,
+      "ok": true
+    },
+    {
+      "path": "botanical-directions/screens/10-menu-mobile.png",
+      "status": 200,
+      "bytes": 96217,
+      "type": "image/png",
+      "sha256": "4f66db35ca98c114a91524733963e3ce446a3a87b9bf921f511edc592ad657e6",
+      "sameAsLocal": true,
+      "ok": true
+    }
+  ],
+  "checkedFiles": 44
+}
