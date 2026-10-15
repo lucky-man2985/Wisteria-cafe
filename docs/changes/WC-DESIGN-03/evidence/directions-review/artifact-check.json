@@ -1,0 +1,55 @@
+{
+  "layout-check.json": {
+    "records": 80,
+    "failed": [],
+    "scriptErrors": [],
+    "httpErrors": [],
+    "widths": [
+      360,
+      390,
+      768,
+      1440
+    ],
+    "maxHomeCtaBottom": 623.625,
+    "homeCtaOutside844": []
+  },
+  "final-screen-check.json": {
+    "records": 40,
+    "failed": [],
+    "scriptErrors": [],
+    "httpErrors": [],
+    "widths": [
+      390,
+      1440
+    ],
+    "maxHomeCtaBottom": 623.625,
+    "homeCtaOutside844": []
+  },
+  "visualInspection": {
+    "boards": [
+      "board-1.png",
+      "board-2.png"
+    ],
+    "mobileHomeIds": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "detailedMenus": [
+      "08-menu-desktop.png",
+      "08-menu-mobile.png",
+      "10-menu-desktop.png",
+      "10-menu-mobile.png",
+      "07-menu-desktop.png",
+      "07-menu-mobile.png",
+      "01-menu-desktop.png"
+    ]
+  }
+}

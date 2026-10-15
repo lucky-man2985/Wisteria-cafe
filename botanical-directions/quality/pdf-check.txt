@@ -1,0 +1,19 @@
+Title:           Wisteria cafe — 10 направлений дизайна
+Creator:         Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36
+Producer:        GPL Ghostscript 10.05.1
+CreationDate:    Thu Oct 15 13:20:31 2026 UTC
+ModDate:         Thu Oct 15 13:20:31 2026 UTC
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           10
+Encrypted:       no
+Page size:       1191.12 x 841.92 pts (A3)
+Page rot:        0
+File size:       2918428 bytes
+Optimized:       no
+PDF version:     1.7

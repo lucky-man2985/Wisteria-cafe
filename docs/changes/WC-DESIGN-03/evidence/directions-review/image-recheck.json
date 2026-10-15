@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Эклер с бельгийским шоколадом",
+    "natural": [
+      900,
+      720
+    ],
+    "image": {
+      "x": 279,
+      "y": 832.1875,
+      "width": 187.421875,
+      "height": 268,
+      "top": 832.1875,
+      "right": 466.421875,
+      "bottom": 1100.1875,
+      "left": 279
+    },
+    "photo": {
+      "x": 279,
+      "y": 832.1875,
+      "width": 187.421875,
+      "height": 268,
+      "top": 832.1875,
+      "right": 466.421875,
+      "bottom": 1100.1875,
+      "left": 279
+    },
+    "objectFit": "contain",
+    "objectPosition": "50% 50%",
+    "card": {
+      "x": 278,
+      "y": 831.1875,
+      "width": 537.5,
+      "height": 270,
+      "top": 831.1875,
+      "right": 815.5,
+      "bottom": 1101.1875,
+      "left": 278
+    },
+    "text": {
+      "x": 466.421875,
+      "y": 832.1875,
+      "width": 348.078125,
+      "height": 268,
+      "top": 832.1875,
+      "right": 814.5,
+      "bottom": 1100.1875,
+      "left": 466.421875
+    },
+    "documentWidth": 1440,
+    "viewport": 1440,
+    "theme": "08",
+    "errors": [],
+    "pass": true
+  },
+  {
+    "title": "Эклер с бельгийским шоколадом",
+    "natural": [
+      900,
+      720
+    ],
+    "image": {
+      "x": 21,
+      "y": 421.59375,
+      "width": 109,
+      "height": 256,
+      "top": 421.59375,
+      "right": 130,
+      "bottom": 677.59375,
+      "left": 21
+    },
+    "photo": {
+      "x": 21,
+      "y": 421.59375,
+      "width": 109,
+      "height": 256,
+      "top": 421.59375,
+      "right": 130,
+      "bottom": 677.59375,
+      "left": 21
+    },
+    "objectFit": "contain",
+    "objectPosition": "50% 50%",
+    "card": {
+      "x": 20,
+      "y": 420.59375,
+      "width": 350,
+      "height": 258,
+      "top": 420.59375,
+      "right": 370,
+      "bottom": 678.59375,
+      "left": 20
+    },
+    "text": {
+      "x": 130,
+      "y": 421.59375,
+      "width": 239,
+      "height": 256,
+      "top": 421.59375,
+      "right": 369,
+      "bottom": 677.59375,
+      "left": 130
+    },
+    "documentWidth": 390,
+    "viewport": 390,
+    "theme": "08",
+    "errors": [],
+    "pass": true
+  },
+  {
+    "title": "Эклер с бельгийским шоколадом",
+    "natural": [
+      900,
+      720
+    ],
+    "image": {
+      "x": 299,
+      "y": 815.1875,
+      "width": 126,
+      "height": 285,
+      "top": 815.1875,
+      "right": 425,
+      "bottom": 1100.1875,
+      "left": 299
+    },
+    "photo": {
+      "x": 299,
+      "y": 815.1875,
+      "width": 126,
+      "height": 285,
+      "top": 815.1875,
+      "right": 425,
+      "bottom": 1100.1875,
+      "left": 299
+    },
+    "objectFit": "contain",
+    "objectPosition": "50% 50%",
+    "card": {
+      "x": 298,
+      "y": 814.1875,
+      "width": 526,
+      "height": 287,
+      "top": 814.1875,
+      "right": 824,
+      "bottom": 1101.1875,
+      "left": 298
+    },
+    "text": {
+      "x": 425,
+      "y": 815.1875,
+      "width": 398,
+      "height": 285,
+      "top": 815.1875,
+      "right": 823,
+      "bottom": 1100.1875,
+      "left": 425
+    },
+    "documentWidth": 1440,
+    "viewport": 1440,
+    "theme": "10",
+    "errors": [],
+    "pass": true
+  },
+  {
+    "title": "Эклер с бельгийским шоколадом",
+    "natural": [
+      900,
+      720
+    ],
+    "image": {
+      "x": 21,
+      "y": 407.59375,
+      "width": 112,
+      "height": 285,
+      "top": 407.59375,
+      "right": 133,
+      "bottom": 692.59375,
+      "left": 21
+    },
+    "photo": {
+      "x": 21,
+      "y": 407.59375,
+      "width": 112,
+      "height": 285,
+      "top": 407.59375,
+      "right": 133,
+      "bottom": 692.59375,
+      "left": 21
+    },
+    "objectFit": "contain",
+    "objectPosition": "50% 50%",
+    "card": {
+      "x": 20,
+      "y": 406.59375,
+      "width": 350,
+      "height": 287,
+      "top": 406.59375,
+      "right": 370,
+      "bottom": 693.59375,
+      "left": 20
+    },
+    "text": {
+      "x": 133,
+      "y": 407.59375,
+      "width": 236,
+      "height": 285,
+      "top": 407.59375,
+      "right": 369,
+      "bottom": 692.59375,
+      "left": 133
+    },
+    "documentWidth": 390,
+    "viewport": 390,
+    "theme": "10",
+    "errors": [],
+    "pass": true
+  }
+]

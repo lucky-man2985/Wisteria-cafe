@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-15",
+  "reviewer": "design_review",
+  "contrastReviewer": "directions_contrast",
+  "status": "PASS",
+  "scope": "Independent visual and targeted contrast review of10 unpublished design directions",
+  "inspection": {
+    "boards": [
+      "board-1.png",
+      "board-2.png"
+    ],
+    "mobileHomeIds": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10"
+    ],
+    "detailedMenus": [
+      "08-menu-desktop.png",
+      "08-menu-mobile.png",
+      "10-menu-desktop.png",
+      "10-menu-mobile.png",
+      "07-menu-desktop.png",
+      "07-menu-mobile.png",
+      "01-menu-desktop.png"
+    ]
+  },
+  "initialLayoutMatrix": {
+    "records": 80,
+    "failed": [],
+    "scriptErrors": [],
+    "httpErrors": [],
+    "widths": [
+      360,
+      390,
+      768,
+      1440
+    ],
+    "maxHomeCtaBottom": 623.625,
+    "homeCtaOutside844": []
+  },
+  "initialFinalScreenMatrix": {
+    "records": 40,
+    "failed": [],
+    "scriptErrors": [],
+    "httpErrors": [],
+    "widths": [
+      390,
+      1440
+    ],
+    "maxHomeCtaBottom": 623.625,
+    "homeCtaOutside844": []
+  },
+  "contrastRecheck": {
+    "pass": true,
+    "cases": 12,
+    "report": "contrast/recheck.json"
+  },
+  "photoRecheck": {
+    "pass": true,
+    "cases": 4,
+    "report": "image-recheck.json"
+  },
+  "findings": [
+    {
+      "id": "C01",
+      "target": "01-menu active category count",
+      "initialStatus": "FAIL",
+      "initialRatio": 4.391,
+      "finalStatus": "PASS",
+      "finalRatio": 6.634
+    },
+    {
+      "id": "C06",
+      "target": "06-menu active category count",
+      "initialStatus": "FAIL",
+      "initialRatio": 4.318,
+      "finalStatus": "PASS",
+      "finalRatio": 5.721
+    },
+    {
+      "id": "C03",
+      "target": "03-menu search placeholder",
+      "initialStatus": "FAIL",
+      "initialRatio": 4.341,
+      "finalStatus": "PASS",
+      "finalRatio": 5.092
+    },
+    {
+      "id": "C07",
+      "target": "07 home/menu footer paragraph",
+      "initialStatus": "FAIL",
+      "initialRatio": 4.499,
+      "finalStatus": "PASS",
+      "finalRatio": 5.97
+    },
+    {
+      "id": "C09",
+      "target": "09 home/menu footer paragraph",
+      "initialStatus": "FAIL",
+      "initialRatio": 4.062,
+      "finalStatus": "PASS",
+      "finalRatio": 5.293
+    },
+    {
+      "id": "PHOTO08-10",
+      "target": "Long eclair photos in08/10",
+      "initialStatus": "COMMENT",
+      "initialIssue": "Cover cropped the long product in narrow photo columns",
+      "finalStatus": "PASS",
+      "fix": "object-fit: contain",
+      "rechecks": 4
+    }
+  ],
+  "unresolvedMaterialDefects": [],
+  "recommendations": [
+    {
+      "id": "01",
+      "reason": "Brand continuity, familiar navigation, clear card structure",
+      "tradeoff": "Illustration receives more attention than food inhero"
+    },
+    {
+      "id": "07",
+      "reason": "White background, consistent circular-photo motif, limited decoration",
+      "tradeoff": "Circular cropping needs per-product review; mobile catalog is taller"
+    },
+    {
+      "id": "08",
+      "reason": "Short introduction and early product/category access",
+      "tradeoff": "Denser interface; contained narrow photos produce smaller product thumbnails"
+    }
+  ],
+  "remainingLimits": [
+    "Only documented states and screenshots reviewed",
+    "Full screen-reader and interaction audit not performed",
+    "Real order/payment flow outside scope",
+    "New design directions not published",
+    "Final boards/PDF regeneration owned bymain agent, export not independently revalidated"
+  ],
+  "productModifiedByReviewAgents": false
+}

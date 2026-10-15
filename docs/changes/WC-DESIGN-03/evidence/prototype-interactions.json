@@ -1,0 +1,880 @@
+{
+  "checkedAt": "2026-10-15T13:22:31.907Z",
+  "base": "http://127.0.0.1:8875",
+  "scope": "Shared demonstration script: six real sample products per direction, not the full 431-item production catalog. No orders or external messages exercised.",
+  "viewports": {
+    "mobile": {
+      "width": 390,
+      "height": 844
+    },
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  "summary": {
+    "checks": 93,
+    "passed": 93,
+    "failed": 0,
+    "themesCompleted": 10,
+    "pageErrors": 0,
+    "unexpectedConsoleErrors": 0
+  },
+  "themes": [
+    {
+      "theme": "01",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "02",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "03",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "04",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "05",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "06",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "07",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "08",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "09",
+      "checks": 9,
+      "passed": 9
+    },
+    {
+      "theme": "10",
+      "checks": 9,
+      "passed": 9
+    }
+  ],
+  "checks": [
+    {
+      "theme": "01",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "01",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "01",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "01",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "01",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "01",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "01",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "01",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "01",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "02",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "02",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "02",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "02",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "02",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "02",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "02",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "02",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "02",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "03",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "03",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "03",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "03",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "03",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "03",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "03",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "03",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "03",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "04",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "04",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "04",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "04",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "04",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "04",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "04",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "04",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "04",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "05",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "05",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "05",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "05",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "05",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "05",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "05",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "05",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "05",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "06",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "06",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "06",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "06",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "06",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "06",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "06",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "06",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "06",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "07",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "07",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "07",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "07",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "07",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "07",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "07",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "07",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "07",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "08",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "08",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "08",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "08",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "08",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "08",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "08",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "08",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "08",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "09",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "09",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "09",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "09",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "09",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "09",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "09",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "09",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "09",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "10",
+      "name": "six demonstration cards initially visible",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "10",
+      "name": "mobile navigation opens with aria state",
+      "pass": true,
+      "details": {
+        "open": true,
+        "display": "grid"
+      }
+    },
+    {
+      "theme": "10",
+      "name": "Escape closes mobile navigation",
+      "pass": true
+    },
+    {
+      "theme": "10",
+      "name": "unknown query produces empty state",
+      "pass": true,
+      "details": {
+        "count": 0,
+        "label": "Найдено: 0"
+      }
+    },
+    {
+      "theme": "10",
+      "name": "eclair query finds exactly one",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "names": [
+          "Эклер с бельгийским шоколадом"
+        ]
+      }
+    },
+    {
+      "theme": "10",
+      "name": "clearing search restores six cards",
+      "pass": true,
+      "details": {
+        "count": 6
+      }
+    },
+    {
+      "theme": "10",
+      "name": "favorite pressed and filter panel opens",
+      "pass": true,
+      "details": {
+        "pressed": "true"
+      }
+    },
+    {
+      "theme": "10",
+      "name": "favorites filter shows only selected card",
+      "pass": true,
+      "details": {
+        "count": 1
+      }
+    },
+    {
+      "theme": "10",
+      "name": "salads category shows one salad",
+      "pass": true,
+      "details": {
+        "count": 1,
+        "label": "Найдено: 1"
+      }
+    },
+    {
+      "theme": "05-desktop",
+      "name": "numeric ascending sort",
+      "pass": true,
+      "details": {
+        "prices": [
+          215,
+          280,
+          290,
+          400,
+          410,
+          450
+        ]
+      }
+    },
+    {
+      "theme": "05-desktop",
+      "name": "numeric descending sort",
+      "pass": true,
+      "details": {
+        "prices": [
+          450,
+          410,
+          400,
+          290,
+          280,
+          215
+        ]
+      }
+    },
+    {
+      "theme": "all",
+      "name": "no page JS or unexpected console errors",
+      "pass": true,
+      "details": {
+        "unexpected": [],
+        "ignoredFavicon404": 1
+      }
+    }
+  ],
+  "console": [
+    {
+      "theme": "01",
+      "type": "console.error",
+      "message": "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "location": {
+        "url": "http://127.0.0.1:8875/favicon.ico",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ]
+}

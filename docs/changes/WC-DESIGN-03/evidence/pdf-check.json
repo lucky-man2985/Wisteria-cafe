@@ -1,0 +1,13 @@
+{
+  "pages": 10,
+  "format": "A3 landscape",
+  "title": "Wisteria cafe — 10 направлений дизайна",
+  "bytes": 2918428,
+  "sha256": "7520bbc748573b3c2a13cf4e9ac37664d3c4517654c8bc5913deccbccf577e56",
+  "checks": [
+    "pdfinfo: 10 pages",
+    "pdftotext: 01–10, distinct headings, no blank pages",
+    "visual: page07 reviewed after compression"
+  ],
+  "visualScope": "Остальные направления проверены в PNG и сравнительных досках; PDF не является полным регрессионным прогоном."
+}

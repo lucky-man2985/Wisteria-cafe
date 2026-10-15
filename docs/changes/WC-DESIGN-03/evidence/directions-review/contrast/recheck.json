@@ -1,0 +1,455 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "file": "01-menu.html",
+      "width": 1440,
+      "target": ".category-sidebar a.active small",
+      "selector": "a.active > small",
+      "text": "431",
+      "fg": "rgb(103, 64, 118)",
+      "bg": [
+        239,
+        228,
+        243
+      ],
+      "ratio": 6.634,
+      "size": 11,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "nav > a.active:nth-of-type(1)",
+          "color": [
+            239,
+            228,
+            243,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            252,
+            250,
+            246,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "06-menu.html",
+      "width": 1440,
+      "target": ".category-sidebar a.active small",
+      "selector": "a.active > small",
+      "text": "431",
+      "fg": "rgb(78, 96, 62)",
+      "bg": [
+        231,
+        237,
+        220
+      ],
+      "ratio": 5.721,
+      "size": 11,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "nav > a.active:nth-of-type(1)",
+          "color": [
+            231,
+            237,
+            220,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            248,
+            249,
+            243,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "03-menu.html",
+      "width": 390,
+      "target": "input::placeholder",
+      "selector": "label.search-field > input::placeholder",
+      "text": "Блюдо или ингредиент",
+      "fg": "rgb(112, 103, 117)",
+      "bg": [
+        250,
+        248,
+        243
+      ],
+      "ratio": 5.092,
+      "size": 13,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "html > body",
+          "color": [
+            250,
+            248,
+            243,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "03-menu.html",
+      "width": 1440,
+      "target": "input::placeholder",
+      "selector": "label.search-field > input::placeholder",
+      "text": "Блюдо или ингредиент",
+      "fg": "rgb(112, 103, 117)",
+      "bg": [
+        250,
+        248,
+        243
+      ],
+      "ratio": 5.092,
+      "size": 14,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "html > body",
+          "color": [
+            250,
+            248,
+            243,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "07-home.html",
+      "width": 390,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        245,
+        241,
+        246
+      ],
+      "ratio": 5.97,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            245,
+            241,
+            246,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "07-home.html",
+      "width": 1440,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        245,
+        241,
+        246
+      ],
+      "ratio": 5.97,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            245,
+            241,
+            246,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "07-menu.html",
+      "width": 390,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        245,
+        241,
+        246
+      ],
+      "ratio": 5.97,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            245,
+            241,
+            246,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "07-menu.html",
+      "width": 1440,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        245,
+        241,
+        246
+      ],
+      "ratio": 5.97,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            245,
+            241,
+            246,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            255,
+            255,
+            255,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "09-home.html",
+      "width": 390,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        234,
+        227,
+        233
+      ],
+      "ratio": 5.293,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            234,
+            227,
+            233,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            246,
+            243,
+            238,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "09-home.html",
+      "width": 1440,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        234,
+        227,
+        233
+      ],
+      "ratio": 5.293,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            234,
+            227,
+            233,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            246,
+            243,
+            238,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "09-menu.html",
+      "width": 390,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        234,
+        227,
+        233
+      ],
+      "ratio": 5.293,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            234,
+            227,
+            233,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            246,
+            243,
+            238,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    },
+    {
+      "file": "09-menu.html",
+      "width": 1440,
+      "target": ".footer-inner p",
+      "selector": "div > p",
+      "text": "Кофе • еда • десерты · Севастополь",
+      "fg": "rgb(98, 89, 104)",
+      "bg": [
+        234,
+        227,
+        233
+      ],
+      "ratio": 5.293,
+      "size": 12,
+      "weight": 400,
+      "large": false,
+      "fail": false,
+      "chain": [
+        {
+          "selector": "#contacts",
+          "color": [
+            234,
+            227,
+            233,
+            1
+          ]
+        },
+        {
+          "selector": "html > body",
+          "color": [
+            246,
+            243,
+            238,
+            1
+          ]
+        }
+      ],
+      "opacities": []
+    }
+  ]
+}

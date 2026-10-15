@@ -1,0 +1,11 @@
+/* Final revisions after independent contrast and product-photo review. */
+[data-theme="01"] .category-sidebar a.active small { color: inherit; }
+[data-theme="06"] .category-sidebar a.active small { color: #4e603e; }
+[data-theme="03"] .search-field input::placeholder { color: var(--muted); opacity: 1; }
+[data-theme="07"] .footer-inner p,
+[data-theme="09"] .footer-inner p { color: #625968; }
+/* Show the complete product in narrow image columns, including long éclairs. */
+[data-theme="08"] .product-photo,
+[data-theme="10"] .product-photo { background: #f7f5f6; }
+[data-theme="08"] .product-photo img,
+[data-theme="10"] .product-photo img { object-fit: contain; object-position: center; }
