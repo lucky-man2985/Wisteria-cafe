@@ -1,0 +1,266 @@
+[
+  {
+    "route": "home",
+    "width": 1440,
+    "dimensions": {
+      "viewport": 1440,
+      "scroll": 1440,
+      "height": 2679,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "menu",
+    "width": 1440,
+    "dimensions": {
+      "viewport": 1440,
+      "scroll": 1440,
+      "height": 2194,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "desserts",
+    "width": 1440,
+    "dimensions": {
+      "viewport": 1440,
+      "scroll": 1440,
+      "height": 2176,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "product",
+    "width": 1440,
+    "dimensions": {
+      "viewport": 1440,
+      "scroll": 1440,
+      "height": 2048,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "navigation",
+    "width": 1440,
+    "dimensions": {
+      "viewport": 1440,
+      "scroll": 1440,
+      "height": 2679,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "accents",
+    "width": 1440,
+    "dimensions": {
+      "viewport": 1440,
+      "scroll": 1440,
+      "height": 1000,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "home",
+    "width": 390,
+    "dimensions": {
+      "viewport": 390,
+      "scroll": 390,
+      "height": 4503,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "menu",
+    "width": 390,
+    "dimensions": {
+      "viewport": 390,
+      "scroll": 390,
+      "height": 4304,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "desserts",
+    "width": 390,
+    "dimensions": {
+      "viewport": 390,
+      "scroll": 390,
+      "height": 4353,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "product",
+    "width": 390,
+    "dimensions": {
+      "viewport": 390,
+      "scroll": 390,
+      "height": 3736,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "navigation",
+    "width": 390,
+    "dimensions": {
+      "viewport": 390,
+      "scroll": 390,
+      "height": 4731,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "accents",
+    "width": 390,
+    "dimensions": {
+      "viewport": 390,
+      "scroll": 390,
+      "height": 1926,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "home",
+    "width": 768,
+    "dimensions": {
+      "viewport": 768,
+      "scroll": 768,
+      "height": 3158,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "menu",
+    "width": 768,
+    "dimensions": {
+      "viewport": 768,
+      "scroll": 768,
+      "height": 2544,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "desserts",
+    "width": 768,
+    "dimensions": {
+      "viewport": 768,
+      "scroll": 768,
+      "height": 2525,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "product",
+    "width": 768,
+    "dimensions": {
+      "viewport": 768,
+      "scroll": 768,
+      "height": 2116,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "navigation",
+    "width": 768,
+    "dimensions": {
+      "viewport": 768,
+      "scroll": 768,
+      "height": 3158,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "accents",
+    "width": 768,
+    "dimensions": {
+      "viewport": 768,
+      "scroll": 768,
+      "height": 1000,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "home",
+    "width": 360,
+    "dimensions": {
+      "viewport": 360,
+      "scroll": 360,
+      "height": 4408,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "menu",
+    "width": 360,
+    "dimensions": {
+      "viewport": 360,
+      "scroll": 360,
+      "height": 4238,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "desserts",
+    "width": 360,
+    "dimensions": {
+      "viewport": 360,
+      "scroll": 360,
+      "height": 4261,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "product",
+    "width": 360,
+    "dimensions": {
+      "viewport": 360,
+      "scroll": 360,
+      "height": 3674,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "navigation",
+    "width": 360,
+    "dimensions": {
+      "viewport": 360,
+      "scroll": 360,
+      "height": 4636,
+      "missingImages": []
+    },
+    "errors": []
+  },
+  {
+    "route": "accents",
+    "width": 360,
+    "dimensions": {
+      "viewport": 360,
+      "scroll": 360,
+      "height": 1949,
+      "missingImages": []
+    },
+    "errors": []
+  }
+]

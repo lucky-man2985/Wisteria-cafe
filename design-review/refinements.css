@@ -1,0 +1,95 @@
+/* Mockup refinements following independent review. No production styles changed. */
+.hero { position: relative; isolation: isolate; background: var(--bg); }
+.hero-art { isolation: auto; }
+.intro { position: relative; isolation: isolate; background: var(--bg); }
+.intro-heading { background: transparent; isolation: auto; }
+.intro-botanical { z-index: -1; pointer-events: none; }
+.intro-heading > div { position: relative; z-index: 1; }
+.hero-text { font-size: 16px; }
+.food-meta, .catalog-food .food-meta { font-size: 12px; }
+.food-card h3, .catalog-food .food-card h3 { font-size: 17px; min-height: 51px; }
+.food-description, .catalog-food .food-description { font-size: 14px; min-height: 48px; }
+.allergens { font-size: 11px; }
+.choose, .catalog-food .choose { font-size: 13px; gap: 11px; padding-inline: 14px; }
+.food-body { padding: 20px; }
+.photo-hint { font-size: 11px; }
+.sidebar nav a { font-size: 13px; min-height: 44px; }
+.sidebar nav a small { font-size: 11px; }
+.search input, .filter-btn, .sort select { font-size: 13px; }
+.segmented button { font-size: 12px; }
+.intro-heading p:not(.kicker) { font-size: 15px; }
+.occasion-tabs .tab, .subtabs .tab { font-size: 12px; }
+.context-label, .fulfilment { font-size: 12px; }
+.fulfilment > span > small { font-size: 10px; }
+.list-heading { font-size: 12px; }
+.list-heading > a { font-size: 11px; }
+.product-lead { font-size: 15px; }
+.option > label { font-size: 12px; }
+.option select { font-size: 13px; }
+.nutrition strong { font-size: 20px; }
+.nutrition small, .nutrition > span { font-size: 11px; }
+.product-note { font-size: 11px; }
+summary { font-size: 14px; }
+details p { font-size: 14px; }
+.allergen-note { font-size: 12px; }
+.base-price { font-size: 19px; font-weight: 700; color: var(--ink); margin-top: 15px; }
+.base-price small { font-size: 12px; color: var(--muted); font-weight: 400; margin-left: 12px; }
+.quick-body > img { width: 100%; max-height: 320px; object-fit: cover; border-radius: 8px; margin-top: 22px; }
+.quick-body p { margin-block: 14px; }
+.quick-body .price { margin-top: 18px; display: block; }
+.quick-body select { display: block; width: 100%; font-size: 13px; border: 1px solid var(--field); border-radius: 6px; padding: 10px; margin-top: 8px; }
+.quick-body label { display: block; font-size: 12px; margin-block: 16px; }
+.quick-body .notice { font-size: 12px; padding: 12px; background: var(--lilac); border-radius: 6px; }
+.mega-menu { position: absolute; top: 100%; width: 100%; border-bottom: 1px solid var(--line); background: white; box-shadow: 0 20px 30px #28232b0a; }
+.mega-inner { display: grid; grid-template-columns: 1fr 1fr 1.1fr; gap: 60px; padding-block: 36px 40px; }
+.mega-inner > div > a { display: flex; align-items: center; justify-content: space-between; min-height: 44px; font-size: 15px; border-bottom: 1px solid #eee8f0; }
+.mega-inner > div > a .icon { width: 16px; color: var(--plum); }
+.mega-inner .kicker { font-size: 10px; margin-bottom: 12px; }
+.mega-feature { display: grid; grid-template-columns: 110px 1fr; align-items: center; gap: 20px; background: var(--lilac); padding: 20px; border-radius: 10px; }
+.mega-feature > img { width: 110px; height: 144px; object-fit: cover; border-radius: 7px; }
+.mega-feature a { font-family: 'Noto Serif', serif; font-size: 22px; line-height: 1.5; display: block; }
+.mega-feature a .icon { display: block; color: var(--plum); margin-top: 12px; }
+body[data-page=navigation] main { opacity: .28; }
+.accent-intro { padding-top: 40px; padding-bottom: 30px; }
+.accent-intro h1 { font-size: 43px; }
+.accent-intro > p:last-child { font-size: 15px; color: var(--muted); margin-top: 16px; }
+.accent-layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 44px; }
+.accent-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-self: start; }
+.accent-cards .food-photo { aspect-ratio: 1.5; }
+.mini-nav { border: 1px solid var(--line); padding: 20px; background: white; border-radius: 10px; }
+.mini-nav > a { display: flex; justify-content: space-between; align-items: center; position: relative; min-height: 42px; padding: 8px 12px; font-size: 13px; border-radius: 6px; }
+.mini-nav small { color: var(--muted); font-size: 11px; }
+.mini-nav .selected { color: var(--plum); background: var(--lilac); }
+.mini-nav .selected:before { content: ''; position: absolute; left: 0; top: 12px; bottom: 12px; width: 2px; background: var(--plum); }
+.accent-notes ol { margin: 22px 0 22px 20px; padding-left: 0; font-size: 12px; color: var(--plum); }
+.accent-notes li { padding-left: 8px; margin-top: 14px; }
+.accent-notes strong { display: block; font-weight: 400; color: var(--ink); font-size: 13px; }
+.accent-notes li span { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; }
+.swatches { display: flex; gap: 10px; }
+.swatches i { display: block; height: 28px; width: 28px; border: 1px solid var(--line); border-radius: 50%; }
+.palette-label { font-size: 10px; color: var(--muted); margin-top: 10px; }
+body[data-page=accents] header, body[data-page=accents] .topline, body[data-page=accents] footer { display: none; }
+body[data-page=accents] { padding-bottom: 40px; }
+@media (max-width: 760px) {
+  .accent-layout, .accent-cards { grid-template-columns: 1fr; }
+  .accent-intro h1 { font-size: 32px; }
+  .mega-menu { display: none; }
+  .hero-text { font-size: 14px; }
+  .intro-heading p:not(.kicker) { font-size: 13px; }
+  .food-card h3, .catalog-food .food-card h3 { font-size: 18px; min-height: 0; }
+  .food-description, .catalog-food .food-description { min-height: 0; }
+  .sidebar nav a { font-size: 12px; }
+  .filter-btn { font-size: 0; }
+  .search input { font-size: 12px; }
+  .fulfilment > span { font-size: 10px; }
+  .occasion-tabs .tab, .subtabs .tab { font-size: 11px; }
+  .list-heading { font-size: 11px; }
+  .list-heading > a { font-size: 9px; }
+  .product-lead { font-size: 14px; }
+  .option select { font-size: 14px; }
+  .nutrition strong { font-size: 17px; }
+  .nutrition small { font-size: 10px; }
+  .mobile-drawer { display: grid; grid-template-columns: 1fr; padding-top: 16px; gap: 0; }
+  .mobile-drawer a { min-height: 48px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); font-size: 16px; padding-inline: 2px; }
+  .mobile-drawer a:after { content: '↗'; color: var(--plum); font-size: 18px; }
+}
