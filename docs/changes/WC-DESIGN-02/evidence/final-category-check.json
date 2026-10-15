@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "width": 360,
+      "active": {
+        "left": 20.1875,
+        "right": 111.9375,
+        "top": 540.703125,
+        "bottom": 584.703125
+      },
+      "frame": {
+        "left": 0,
+        "right": 360,
+        "top": 531.703125,
+        "bottom": 593.703125
+      },
+      "scrollY": 0,
+      "docWidth": 360,
+      "viewport": 360
+    },
+    {
+      "width": 390,
+      "active": {
+        "left": 20.1875,
+        "right": 111.9375,
+        "top": 544.25,
+        "bottom": 588.25
+      },
+      "frame": {
+        "left": 0,
+        "right": 390,
+        "top": 535.25,
+        "bottom": 597.25
+      },
+      "scrollY": 0,
+      "docWidth": 390,
+      "viewport": 390
+    },
+    {
+      "width": 768,
+      "active": {
+        "left": 32,
+        "right": 193,
+        "top": 693.71875,
+        "bottom": 737.71875
+      },
+      "frame": {
+        "left": 32,
+        "right": 212,
+        "top": 552.03125,
+        "bottom": 880
+      },
+      "scrollY": 0,
+      "docWidth": 768,
+      "viewport": 768
+    },
+    {
+      "width": 1440,
+      "active": {
+        "left": 72,
+        "right": 253,
+        "top": 658.609375,
+        "bottom": 702.609375
+      },
+      "frame": {
+        "left": 72,
+        "right": 272,
+        "top": 481.609375,
+        "bottom": 880
+      },
+      "scrollY": 0,
+      "docWidth": 1440,
+      "viewport": 1440
+    }
+  ],
+  "product": {
+    "font": "15px",
+    "priceBottom": 761.140625,
+    "photoHeight": 296.609375,
+    "context": "none"
+  }
+}
